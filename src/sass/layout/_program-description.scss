@@ -1,0 +1,24 @@
+.program-description {
+  padding-top: 100px;
+  background: linear-gradient(230deg, white 5%, #feffd6, #93cfff, white);
+}
+
+.program-description__title {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+
+  margin-bottom: 20px;
+}
+
+.program-description__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #000000;
+}
