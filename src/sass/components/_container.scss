@@ -5,10 +5,9 @@
 }
 
 .elipse-wrapper {
-  position: absolute;
-  width: 100%;
-  background-size: cover;
-  background: url(../images/mobile/Ellipse1.png);
-  //   background: url(../images/mobile/Ellipse2.png);
-  background-size: cover;
+  // width: 100%;
+  // background: url(../images/mobile/Ellipse1.png);
+  // background-size: cover;
+
+  background: linear-gradient(147deg, white 5%, #b6dfff 50%, #feffd6, #f3f573);
 }
