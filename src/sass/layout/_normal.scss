@@ -1,0 +1,32 @@
+.normal {
+  padding-top: 100px;
+  background: linear-gradient(
+    206deg,
+    #93cfff,
+    white,
+    #93cfff,
+    white,
+    #feffd6,
+    white,
+    #93cfff,
+    white
+  );
+}
+
+.normal__reasons {
+  display: flex;
+}
+
+.normal__reasons:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.normal__reasons--text {
+  margin-left: 18px;
+
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #000000;
+}
