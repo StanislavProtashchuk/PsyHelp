@@ -4,6 +4,12 @@
   padding-top: 50px;
 }
 
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .hero__title {
   width: 281px;
   margin-bottom: 20px;
@@ -73,4 +79,9 @@
 
 .hero__button-wrapper--btn:focus {
   background: rgb(0, 174, 255);
+}
+
+.hero__phone-img {
+  width: 117px;
+  height: 221px;
 }
