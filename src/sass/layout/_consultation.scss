@@ -1,0 +1,38 @@
+.consultation {
+  padding-top: 35px;
+  display: flex;
+}
+
+.consultation__btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 390px;
+
+  background: linear-gradient(
+    151.9deg,
+    rgba(255, 255, 255, 0.4) -53.37%,
+    rgba(255, 255, 255, 0.4) 100%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  backdrop-filter: blur(25.6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 6.4px;
+}
+
+.consultation__img {
+  width: 220px;
+  height: 130px;
+  margin: 40px 30px 20px 30px;
+}
+
+.consultation__text {
+  padding: 0 20px 20px 20px;
+
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #000000;
+}
