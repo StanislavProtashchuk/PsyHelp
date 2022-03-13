@@ -1,22 +1,15 @@
 .container {
-  min-width: 320px;
   margin: 0px auto;
   padding: 0px 20px;
+
+  @media screen and (min-width: 320px) {
+    width: 320px;
+  }
 }
 
 body {
   background: linear-gradient(
     165deg,
-    white,
-    #b6dfff,
-    #feffd6,
-    #f3f573,
-    #feffd6,
-    white,
-    #b6dfff,
-    #feffd6,
-    #f3f573,
-    #feffd6,
     white,
     #b6dfff,
     #feffd6,
