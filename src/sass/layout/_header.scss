@@ -1,5 +1,6 @@
 .header__container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 
   padding-top: 20px;
@@ -7,14 +8,11 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 19px;
-  margin-left: 6px;
   color: #000000;
 
   @media screen and (min-width: 768px) {
     font-size: 9.984px;
     line-height: 14px;
-
-    margin-left: 1.6px;
   }
 }
 
@@ -29,6 +27,7 @@
 }
 
 .telegram-wrapper__title {
+  margin-left: 6px;
   @media screen and (min-width: 768px) {
     font-size: 9.984px;
     line-height: 14px;
