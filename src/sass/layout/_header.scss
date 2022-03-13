@@ -3,19 +3,56 @@
   justify-content: space-between;
 
   padding-top: 20px;
-}
 
-.telegram-wrapper {
-  display: flex;
-  width: 85px;
-}
-
-.telegram-wrapper__title {
-  text-transform: capitalize;
-  font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 19px;
   margin-left: 6px;
   color: #000000;
+
+  @media screen and (min-width: 768px) {
+    font-size: 9.984px;
+    line-height: 14px;
+
+    margin-left: 1.6px;
+  }
+}
+
+.telegram-wrapper {
+  display: flex;
+  width: 85px;
+
+  @media screen and (min-width: 768px) {
+    width: 125px;
+    align-items: center;
+  }
+}
+
+.telegram-wrapper__title {
+  @media screen and (min-width: 768px) {
+    font-size: 9.984px;
+    line-height: 14px;
+
+    margin-left: 1.6px;
+  }
+}
+
+.telegram-wrapper__pretitle {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: inline;
+    margin-left: 8.5px;
+  }
+}
+
+.header__contacts-wrapper {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: inline;
+    width: 138px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
