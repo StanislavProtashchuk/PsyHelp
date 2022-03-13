@@ -32,6 +32,12 @@
 
   @media screen and (min-width: 768px) {
     margin-top: 95px;
+    margin-bottom: 15px;
+    width: 334px;
+
+    font-weight: 400;
+    font-size: 25.344px;
+    line-height: 29px;
   }
 }
 
@@ -44,6 +50,14 @@
   line-height: 25px;
 
   color: #000000;
+
+  @media screen and (min-width: 768px) {
+    width: 325px;
+
+    font-weight: 300;
+    font-size: 15.36px;
+    line-height: 21px;
+  }
 }
 
 .header__button-wrapper {
@@ -60,6 +74,10 @@
   /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 6.4px;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 
 .hero__button-wrapper--text {
@@ -97,4 +115,10 @@
 .hero__phone-img {
   width: 117px;
   height: 221px;
+}
+
+.trangle__mob {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
