@@ -10,6 +10,60 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
+
+  color: #000000;
+}
+
+.contacts__img-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 32px;
+}
+
+.contacts__img1 {
+  width: 134px;
+}
+
+.contacts__img2 {
+  width: 124px;
+}
+
+.contacts__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #000000;
+
+  margin-bottom: 20px;
+}
+
+.contacts__txt {
+  display: block;
+  margin-bottom: 15px;
+
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.contacts__telegram-wrapper {
+  display: flex;
+  margin-bottom: 119px;
+  cursor: pointer;
+}
+
+.contacts__telegram {
+  margin-left: 6px;
+
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
   /* identical to box height */
 
   color: #000000;
